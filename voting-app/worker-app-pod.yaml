@@ -10,8 +10,3 @@ spec:
   containers:
     - name: worker-app
       image: kodekloud/examplevotingapp_worker:v1
-      env:
-        - name: POSTGRES_USER
-          value: postgres
-        - name: POSTGRES_PASSWORD
-          value: postgres
